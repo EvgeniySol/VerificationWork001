@@ -12,7 +12,6 @@
 Console.WriteLine("Введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 string[] mas = new string [size];
-//string[] arr = Array.Empty<string>();
 string[] arr = new string [size];
 
 for (int i = 0; i < mas.Length; i++)
